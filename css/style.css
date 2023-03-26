@@ -357,6 +357,22 @@ nav .fas {
         text-align: center;
         margin: 10px 0;
     }
+    .maincontainer {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    .main-content {
+        padding: 30px 0;
+    }
+    .main-content h1 {
+        font-size: 2rem;
+    }
+    .main-content p {
+        font-size: 1.2rem;
+    }
+    .main-content a {
+        padding: 8px 16px;
+    }
     .why p {
         padding: 2%;
         text-align: center;
