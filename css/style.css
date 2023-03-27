@@ -415,6 +415,9 @@ nav .fas {
     .footer-links a {
         color: #fff;
         text-decoration: none;
-        font-size: 8px;
+        font-size: 4px;
+    }
+    .footer-info {
+        font-size: 12px;
     }
 }
