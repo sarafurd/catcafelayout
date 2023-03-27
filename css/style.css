@@ -55,7 +55,7 @@ body {
     background: white;
 }
 
-header {
+#header {
     width: 100%;
     height: 100vh;
     background-image: url(camden-hailey-george-m6O-OyKniK0-unsplash.jpg);
@@ -107,7 +107,7 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
-.maincontainer {
+#maincontainer {
     max-width: 600px;
     margin: 0 auto;
 }
@@ -142,25 +142,25 @@ nav ul li a:hover::after {
     color: black;
 }
 
-.why {
+#welcome {
     background: var(--main-white);
     height: 280px;
 }
 
-.why h2 {
+#welcome h2 {
     padding: 2%;
     text-align: center;
     color: var(--main-darkgrey);
 }
 
-.why p {
+#welcome p {
     padding: 2%;
     text-align: center;
     padding: 0 35% 5% 35%;
     margin: 10px;
 }
 
-.visit {
+#visit {
     display: flex;
     justify-content: center;
     /* Center the items horizontally */
@@ -169,13 +169,13 @@ nav ul li a:hover::after {
     background: var(--main-lightgrey);
 }
 
-.visit-gym,
+.visit-online,
 .visit-personal {
     text-align: center;
     height: 450px;
 }
 
-.visit img {
+#visit img {
     margin-top: 30px;
     height: 200px;
     width: 300px;
@@ -184,13 +184,13 @@ nav ul li a:hover::after {
     background-position: center; */
 }
 
-.visit-gym p,
+.visit-online p,
 .visit-personal p {
     margin: 10px 30px;
     padding: 10px 10px;
 }
 
-.visit-gym a {
+.visit-online a {
     display: inline-block;
     text-align: center;
     text-decoration: none;
@@ -202,7 +202,7 @@ nav ul li a:hover::after {
     background: var(--main-darkgrey);
 }
 
-.visit-gym a:hover {
+.visit-online a:hover {
     color: var(--main-darkgrey);
 }
 
@@ -223,7 +223,7 @@ nav ul li a:hover::after {
     color: var(--main-darkgrey);
 }
 
-.volunteer {
+#donate {
     height: 350px;
     background: var(--main-white);
     color: var(--main-darkgrey);
@@ -231,17 +231,17 @@ nav ul li a:hover::after {
     text-align: center;
 }
 
-.volunteer h2 {
+#donate h2 {
     padding: 2%;
     color: var(--main-darkgrey);
 }
 
-.volunteer p {
+#donate p {
     padding: 0 35% 5% 35%;
     color: var(--main-darkgrey);
 }
 
-.volunteer a {
+#donate a {
     color: white;
     border: 1px solid var(--main-darkgrey);
     background: var(--main-darkgrey);
@@ -250,7 +250,7 @@ nav ul li a:hover::after {
     transition: 0.8s;
 }
 
-.volunteer a:hover {
+#donate a:hover {
     color: var(--main-darkgrey);
 }
 
@@ -357,7 +357,7 @@ nav .fas {
         text-align: center;
         margin: 10px 0;
     }
-    .maincontainer {
+    #maincontainer {
         max-width: 100%;
         padding: 0 20px;
     }
@@ -373,43 +373,43 @@ nav .fas {
     .main-content a {
         padding: 8px 16px;
     }
-    .why p {
+    #welcome p {
         padding: 2%;
         text-align: center;
         padding: 0 10%;
         margin: 10px;
     }
-    .visit {
+    #visit {
         flex-wrap: wrap;
         padding: 20px;
         text-align: center;
     }
-    .visit img {
+    #visit img {
         height: auto;
         max-width: 100%;
     }
-    .visit-gym,
+    .visit-online,
     .visit-personal {
         height: auto;
         margin: 20px 0;
     }
-    .visit-gym p,
+    .visit-online p,
     .visit-personal p {
         margin: 10px 0;
         padding: 10px 0;
     }
-    .visit-gym a,
+    .visit-online a,
     .visit-personal a {
         margin-top: 20px;
     }
-    .volunteer {
+    #donate {
         height: auto;
         padding: 20px;
     }
-    .volunteer p {
+    #donate p {
         padding: 0 5% 5% 5%;
     }
-    .volunteer a {
+    #donate a {
         padding: 10px 20px;
     }
     .footer-links a {
